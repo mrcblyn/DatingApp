@@ -9,5 +9,8 @@ namespace DatingApp.API.Data
 
         // property name will be db name in sql
         public DbSet<Value> Values { get; set; }
+
+        public DbSet<User> Users { get; set; }
+
     }
 }
